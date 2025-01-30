@@ -1,10 +1,10 @@
 function checkPass(pass) {
-  let passStr = pass.toString();
+  let passString = pass.toString();
   /*count it as strings for this use .toString. long songkha er input nicchi
   tai etake string hisebe count korbo
   */
 
-  if (passStr.length > 8) {
+  if (passString.length > 8) {
     return "yes";
   } else {
     return "no";
